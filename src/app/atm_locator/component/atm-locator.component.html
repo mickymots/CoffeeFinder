@@ -1,0 +1,35 @@
+<h1>ING ATM Locator</h1>
+
+<table>
+  <tr>
+    <th>city</th>
+    <th>street</th>
+    <th>housenumber</th>
+    <th>postalcode</th>
+  </tr>
+  <tr *ngFor="let atm of allAtms">
+    <td>{{atm.city}}</td>
+    <td>{{atm.street}}</td>
+    <td>{{atm.housenumber}}</td>
+    <td>{{atm.postalcode}}</td>
+  </tr>
+</table>
+
+<!-- <p-table [value]="data">
+  <ng-template pTemplate="header">
+      <tr>
+          <th>city</th>
+          <th>street</th>
+          <th>housenumber</th>
+          <th>postalcode</th>
+      </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-car>
+      <tr>
+          <td>{{data.city}}</td>
+          <td>{{cdataar.street}}</td>
+          <td>{{data.housenumber}}</td>
+          <td>{{data.postalcode}}</td>
+      </tr>
+  </ng-template>
+</p-table> -->
