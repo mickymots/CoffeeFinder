@@ -1,0 +1,26 @@
+{
+
+"data":[
+
+	{
+		"street": "Heyhoefpromenade",
+		"housenumber": "105-107",
+		"postalcode": "5043 RB",
+		"city": "Tilburg"		
+	},
+    {
+		"street": "Tuinfluiter",
+		"housenumber": "1",
+		"postalcode": "3752 NA",
+		"city": "Bunschoten-Spakenburg"		
+	},
+	{
+		"street": "Nieuwe Ebbingestraat",
+		"housenumber": "33",
+		"postalcode": "9712 ND",
+		"city": "Groningen"
+	}
+
+
+
+]}
